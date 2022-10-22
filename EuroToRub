@@ -4,13 +4,13 @@ Output = 0
 
 function EuroToRub(Euro)
     Output = Euro * RubValue
-    print(Output.." RUB")
+    print("Awnser = "..Output.." RUB")
     os.exit()
 end
 
 function RubToEuro(Rub)
     Output = Rub * EuroValue
-    print(Output.." EURO")
+    print("Awnser = "..Output.." EURO")
     os.exit()
 end
 
