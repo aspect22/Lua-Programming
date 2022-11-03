@@ -29,7 +29,6 @@ function _main_()
             print("The Number you guessed is too small")
         end
     end
-
 end
 
 _main_()
