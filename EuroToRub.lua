@@ -4,28 +4,28 @@ Output = 0
 
 function EuroToRub(Euro)
     Output = Euro * RubValue
-    print(Output.." RUB")
+    print("Awnser = "..Output.." RUB")
     os.exit()
 end
 
 function RubToEuro(Rub)
     Output = Rub * EuroValue
-    print(Output.." EURO")
+    print("Awnser = "..Output.." EURO")
     os.exit()
 end
 
-function help()
+function Help()
     print("Calculate Rub from Euro:\t-EuroToRub [EURO]")
     print("Calculate Euro from Rub:\t-RubToEuro [Rub]")
     os.exit()
 end
 
-function _main_()
+function _Main_()
     if (arg[2] == nil) then
-        help()
+        Help()
     end
     if (arg[1] == nil) then
-        help()
+        Help()
     end
     arg[1] = string.lower(arg[1])
     arg[2] = string.lower(arg[2])
@@ -40,4 +40,4 @@ function _main_()
     end
 end
 
-_main_()
+_Main_()

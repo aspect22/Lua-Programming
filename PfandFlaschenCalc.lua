@@ -25,7 +25,7 @@ if (arg[1] == "EZG") then
     EurozuGlasPfand(arg[2])
 end
 if (arg[1] == "FZP") then
-    FlascheZuPfand(arg[2])
+    EuroZuPfand(arg[2])
 end
 if (arg[1] == "PZF") then
     PfandZuFlasche(arg[2])
